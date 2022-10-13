@@ -2,7 +2,7 @@
 from pickle import TRUE
 
 
-l=(input("Dime una letra\n"))
+l=str(input("Dime una letra\n"))
 
 if l.isupper()==True:
     print("La letra está en mayúscula")
